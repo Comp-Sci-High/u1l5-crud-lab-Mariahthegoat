@@ -17,13 +17,20 @@ console.log(playlist)
 // ----------------------------------
 // OBJECTS SECTION
 // Task 5: Create an object called 'song' with 'title', 'artist', and 'duration' properties
+let song= [
+    {
+    title:"Get Along Better",
+    artist:"Drake",
+    duration:"3:49"
 
+
+}]
 
 // Task 6: Add a property 'listenedTo' to the 'song' object and set it to false
-
+song.ilstenedTo = false;
 
 // Task 7: Delete the 'artist' property
-
+delete song.artist
 
 // Commit your changes with an appropriate message.
 // ----------------------------------
