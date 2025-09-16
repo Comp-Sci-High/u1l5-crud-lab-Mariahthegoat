@@ -1,17 +1,17 @@
 // ARRAY SECTION
 // Task 1: Create an empty array called playlist
-
+let playlist=[]
 
 // Task 2: Push 3 songs to the playlist array
-
+playlist.push["Get Along Better","Stuck on You","WGFT"]
 
 // Task 3: Update the value of the last element to be "Test"
-
+playlist[playlist.length-1] = "Test"
 
 // Task 4: Delete the "Test" element 
-
+playlist.pop
 // Console log the array
-
+console.log(playlist)
 
 // Commit your changes with an appropriate message.
 // ----------------------------------
